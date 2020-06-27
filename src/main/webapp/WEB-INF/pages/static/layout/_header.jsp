@@ -67,11 +67,12 @@
 			<!-- WEBSITE LOGO -->
 			<a class="responsive_logo" href="index.html"><img
 				src="${pageContext.request.contextPath}/resources/static/images/logo3.png"
-				alt="" class="logo" /></a> <a href="index.html"><h1
+				alt="" class="logo" /></a> <a href="index.html">
+			<!--  <h1
 					class="sitenametext">Food Recipes</h1></a> <a href="index.html"><img
 				class="header-img"
 				src="${pageContext.request.contextPath}/resources/static/images/header-image.png"
-				alt="Food Recipes" /></a>
+				alt="Food Recipes" /></a>-->	
 		</div>
 		<!-- end of header div -->
 
