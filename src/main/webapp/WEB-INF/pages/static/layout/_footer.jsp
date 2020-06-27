@@ -30,7 +30,7 @@
 	<div id="bottom" class="clearfix">
 		<div style="float: left; width: 69%;">
 			<h2 style="margin-bottom: 24px;">
-				<span>Inspiry</span> Themes
+				<span>Inspiry Themes</span>
 			</h2>
 			<p style="line-height: 1.7rem;">Sed ut perspiciatis unde omnis
 				iste natus error sit voluptatem accusantium doloremque laudantium,
@@ -47,7 +47,7 @@
 
 		<div style="float: left; width: 30%;">
 			<h2 style="margin-bottom: 24px;">
-				<span>kết nối </span> Yummy
+				<span>Kết nối với Yummy</span>
 			</h2>
 			<div style="line-height: 1.7rem; padding-left: 40px;">
 				<div style="text-align: center;">
@@ -88,7 +88,7 @@
 
 <div id="footer-wrap">
 	<div id="footer">
-		<p class="copyright">Copyright © 2016, Food Recipes - YummyTeam
+		<p class="copyright">Copyright © 2020, Yummy-PekopekoTeam
 			Vietnam. All rights reserved</p>
 		<p class="dnd">
 			Developed by <a href="">FPT </a>

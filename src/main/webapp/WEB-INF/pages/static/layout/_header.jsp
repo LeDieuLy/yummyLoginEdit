@@ -29,7 +29,7 @@
 <!--[if IE 7]><link type="text/css" rel="stylesheet" href="css/font-awesome-ie7.min.css" /><![endif]-->
 
 
-<title>Food Recipes</title>
+<title>Yummy</title>
 
 <style>
 .flaticon {
@@ -66,7 +66,7 @@
 		<div id="header" class="clearfix">
 			<!-- WEBSITE LOGO -->
 			<a class="responsive_logo" href="index.html"><img
-				src="${pageContext.request.contextPath}/resources/static/images/logo.png"
+				src="${pageContext.request.contextPath}/resources/static/images/logo3.png"
 				alt="" class="logo" /></a> <a href="index.html"><h1
 					class="sitenametext">Food Recipes</h1></a> <a href="index.html"><img
 				class="header-img"
@@ -96,10 +96,7 @@
 
 					<li><a href="chef-listing.html"
 						style="color: rgb(255, 255, 255);">Giới thiệu</a>
-						<ul class="sub-menu" style="display: none;">
-							<li style="background: none;"><a href="author.html">Chef
-									Single</a></li>
-						</ul></li>
+						</li>
 					<li><a href="contact.html" style="color: rgb(255, 255, 255);">
 							Điều khoản</a></li>
 
@@ -138,7 +135,7 @@
 								<ul class="sub-menu" style="display: none;">
 									<li style="background: none;"><a
 										href="${pageContext.request.contextPath}/profile"
-										style="color: rgb(255, 255, 255);">Cá nhận</a></li>
+										style="color: rgb(255, 255, 255);">Cá nhân</a></li>
 									<li><a href="typography.html"
 										style="color: rgb(255, 255, 255);">Bài viết yêu thích</a></li>
 
@@ -188,13 +185,13 @@
 
 			<div class="top-search  clearfix">
 				<h3 class="head-pet">
-					<span>Yummy Tìm Kiếm </span>
+					<span>  Tìm Kiếm </span>
 				</h3>
 
 				<form action="#" id="searchform">
 					<p>
 						<input type="text" name="s" id="s" class="field" value=""
-							placeholder="Search for" /> <input type="submit" name="s_submit"
+							placeholder="Từ khóa" /> <input type="submit" name="s_submit"
 							id="s-submit" value="" />
 					</p>
 				</form>
@@ -202,10 +199,10 @@
 
 
 				<p class="statement">
-					<span class="fireRed">Recipe Types:</span> <a href="#">Beef</a> , <a
-						href="#">Cheese</a> , <a href="#">Chicken</a> , <a href="#">Chocolate</a>
-					, <a href="#">Fish</a> , <a href="#">Pizzas</a>, <a href="#">Potatos</a>,
-					<a href="#">Rolls</a>
+					<span class="fireRed">Một số gợi ý:</span> <a href="#">Thịt bò</a> , <a
+						href="#">Thịt gà</a> , <a href="#">Bánh ngọt</a> , <a href="#">Cá</a>
+					, <a href="#">Mẹo hay</a> , <a href="#">Pizzas</a>, <a href="#">Khoai tây</a>,
+					<a href="#">Phở</a>
 					
 					
 					
