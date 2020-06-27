@@ -158,7 +158,7 @@
 									<h3 class="mgbt-xs-15">Thông tin người dùng</h3>
 
 									<span id="hideMe" class="${class_name}"
-										style="font-size: larger; margin: 179px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${ message2 }</span>
+										style="font-size: larger; margin: 168px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${ message2 }</span>
 									<br> <br>
 									<div class="form-group">
 										<label class="col-sm-3 control-label font">Họ tên</label>
@@ -345,7 +345,7 @@
 
 
 						<span id="hideMe" class="${class_name}"
-							style="font-size: larger; margin: 179px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${message}</span>
+							style="font-size: larger; margin: 168px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${message}</span>
 
 
 
