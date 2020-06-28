@@ -54,10 +54,11 @@ public class StaticController {
 	public String profileEditProcess(HttpSession session, ModelMap model, @RequestParam("image") MultipartFile image,
 			@RequestParam("gender") int gender, @RequestParam("age") int age, @RequestParam("name") String name,
 			@RequestParam("birthday") String birthday, @RequestParam("address") String address,
+			 @RequestParam("email") String email,
 			@RequestParam("bio") String bio) {
 		String photo = UploadConfig.uploadImage(model, image);
 		String photo2 = photo.equals("") ? user.getCurrentUsers().getImage() : photo;
-		if (userDaoimpl.Update(new Users(user.getCurrentUsers().getId(), user.getCurrentUsers().getEmail(), name,
+		if (userDaoimpl.Update(new Users(user.getCurrentUsers().getId(), email, name,
 				user.getCurrentUsers().getPassword(), user.getCurrentUsers().getPhone(), age, gender,
 				user.getCurrentUsers().getRole(), birthday, address, user.getCurrentUsers().getProvider(), bio, photo2,
 				user.getCurrentUsers().getCreated_at(), user.getCurrentUsers().getStatus(),
@@ -66,7 +67,7 @@ public class StaticController {
 			model.addAttribute("class_name", "msg_success");
 		} else {
 			model.addAttribute("message2", "Cập nhập thông tin thất bại.");
-			model.addAttribute("error", "msg_success");
+			model.addAttribute("class_name", "msg_error");
 		}
 
 		session.setAttribute("user", user.getCurrentUsers());

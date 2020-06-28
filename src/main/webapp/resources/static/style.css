@@ -526,6 +526,22 @@ input[type="date"], input[type="text"], input[type="password"], input[type="numb
 	width: 120%;
 }
 
+.inputStyle {
+	display: inline-block;
+	height: 18px;
+	padding: 8px;
+	margin: 0 0 0;
+	border: 1px solid #d5d5d5;
+	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+	color: #888;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	box-sizing: content-box;
+	outline: none;
+	width: 120%;
+}
+
 textarea {
 	display: inline-block;
 	padding: 8px;

@@ -5,16 +5,6 @@
 
 <jsp:include page="layout/_header.jsp"></jsp:include>
 
-
-
-
-
-
-
-
-
-
-
 <!-- 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -33,28 +23,6 @@
 		});
 	});
 </script> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <div class="vd_content clearfix">
 	<div class="vd_content-section clearfix">
@@ -145,7 +113,7 @@
 
 														<tr>
 															<td>Ngày tham gia</td>
-															<td>Jan 07, 2014</td>
+															<td>${ user.getCreated_at() }</td>
 														</tr>
 													</tbody>
 												</table>
@@ -253,7 +221,23 @@
 										<!-- col-sm-10 -->
 									</div>
 
+<!-- Change Email --> 
+									<div class="form-group">
+										<label class="col-sm-3 control-label font">Email</label>
+										<div class="col-sm-9 controls">
+											<div class="row mgbt-xs-0">
+												<div class="col-xs-9">
+													<input class="inputStyle" type="email" required value="${ user.getEmail() }"
+														name="email" placeholder=" Email" />
+												</div>
+												<!-- col-xs-9 -->
 
+											</div>
+											<!-- row -->
+										</div>
+										<!-- col-sm-10 -->
+									</div>
+<!--  -->
 									<div class="form-group">
 										<label class="col-sm-3 control-label font"> Mô tả </label>
 										<div class="col-sm-9 controls">
@@ -355,18 +339,18 @@
 							<label class="col-sm-3 control-label font">Số điện thoại</label>
 							<div class="col-sm-9 controls">
 								<div class="row mgbt-xs-0">
-									<div style="width: 27%; float: left; margin-left: 15px;">
-										<input readonly type="text" placeholder="Email "
+									<div class="col-xs-9">
+										<input class="inputStyle" readonly type="text" placeholder="phone"
 											value="${ user.getPhone() }">
 									</div>
-									<div>
+							<!--  		<div>
 										<label class="col-sm-3 control-label font"
 											style="margin-left: -13px;">Email</label>
 									</div>
 									<div style="float: left; width: 28%;">
 										<input readonly type="text" placeholder="Email "
 											value="${ user.getEmail() }">
-									</div>
+									</div> -->	
 
 								</div>
 								<!-- row -->

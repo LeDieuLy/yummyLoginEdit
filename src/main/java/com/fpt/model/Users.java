@@ -104,6 +104,18 @@ public class Users implements Serializable {
 		this.created_at = created_at;
 		this.status = status;
 	}
+	
+	public Users(String fullname, String password, String phone, Timestamp created_at,
+			Integer status, Integer gender, Integer role) {
+		super();
+		this.fullname = fullname;
+		this.password = password;
+		this.phone = phone;
+		this.gender = gender;
+		this.role = role;
+		this.created_at = created_at;
+		this.status = status;
+	}
 
 	public Users(Integer id, String email, String fullname, String password, String phone, Integer age, Integer gender,
 			Integer role, String birthday, String country, String provider, String bio, String image,

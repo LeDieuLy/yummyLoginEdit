@@ -23,6 +23,10 @@ public class Posts {
 	@Column
 
 	private String video_url;
+	
+	@Column
+
+	private String image;
 	@Column
 
 	private String title;
@@ -79,12 +83,13 @@ public class Posts {
 		super();
 	}
 
-	public Posts(Users user_id, String video_url, String title, String overview, String making, String material, int time,
+	public Posts(Users user_id, String video_url,String image, String title, String overview, String making, String material, int time,
 			int ration, String kind, String level, int price, String nation, String holiday, String category,
 			String suitable, Timestamp created_at, String deleted_at) {
 		super();
 		this.user = user_id;
 		this.video_url = video_url;
+		this.image= image;
 		this.title = title;
 		this.overview = overview;
 		this.making = making;
@@ -103,13 +108,14 @@ public class Posts {
 	}
 	
 	
-	public Posts(Integer id,Users user_id, String video_url, String title, String overview, String making, String material, int time,
+	public Posts(Integer id,Users user_id, String video_url,String image, String title, String overview, String making, String material, int time,
 			int ration, String kind, String level, int price, String nation, String holiday, String category,
 			String suitable, Timestamp created_at, String deleted_at) {
 		super();
 		this.id = id;
 		this.user = user_id;
 		this.video_url = video_url;
+		this.image = image;
 		this.title = title;
 		this.overview = overview;
 		this.making = making;
@@ -147,9 +153,17 @@ public class Posts {
 	public String getVideo_url() {
 		return video_url;
 	}
-
+	
 	public void setVideo_url(String video_url) {
 		this.video_url = video_url;
+	}
+	
+	public String getImage() {
+		return image;
+	}
+
+	public void setImage(String image) {
+		this.image= image;
 	}
 
 	public String getTitle() {

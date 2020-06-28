@@ -37,10 +37,11 @@ input::placeholder {
 					</div>
 					<div class="wrap-input100 validate-input"
 						data-validate="Username is required">
-						<input maxlength="40" required minlength="12" class="input100"
+						<input maxlength="40" required minlength="5" class="input100"
 							type="text" name="fullname"> <span class="focus-input100"></span>
 					</div>
 
+<!-- Địa chỉ 
 					<div class="p-b-9">
 						<span class="txt1"> Địa chỉ </span>
 					</div>
@@ -49,7 +50,7 @@ input::placeholder {
 						<input class="input100" type="text" minlength="8" maxlength="100"
 							required name="address"> <span class="focus-input100"></span>
 					</div>
-
+-->
 					<div class="p-b-9">
 						<span class="txt1">Số điện thoại </span>
 					</div>
@@ -58,7 +59,7 @@ input::placeholder {
 						<input class="input100" type="tel" required pattern="^(03|09)+([0-9]{8})" name="phone">
 						<span class="focus-input100"></span>
 					</div>
-
+<!-- Email 
 					<div class="p-b-9">
 						<span class="txt1">Email </span>
 					</div>
@@ -67,7 +68,7 @@ input::placeholder {
 						<input class="input100" type="email" minlength="8" maxlength="50"
 							required name="email"> <span class="focus-input100"></span>
 					</div>
-
+-->
 					<div class="p-b-9">
 						<span class="txt1">Mật Khẩu </span>
 					</div>
