@@ -80,7 +80,7 @@
 												alt="Card image cap" class="avatar-course-img" />
 											</a>
 											<h1 style="display: inline;" class="card-title mb-0">
-												<a href="#">2000</a>
+												<a href="#">${ total_user }</a>
 											</h1>
 											<h4 class="card-title mb-0">
 												<a href="#">Quản lý bình luận</a>

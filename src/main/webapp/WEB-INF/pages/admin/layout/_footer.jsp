@@ -33,7 +33,7 @@
 						</a></li>
 					</ul>
 
-					<div class="sidebar-heading">Trị người dùng</div>
+					<div class="sidebar-heading">Quản Trị người dùng</div>
 					<div class="sidebar-block p-0">
 						<ul class="sidebar-menu mt-0">
 							<li class="sidebar-menu-item"><a class="sidebar-menu-button"
@@ -89,7 +89,7 @@
 									class="sidebar-menu-icon sidebar-menu-icon--left material-icons">email</i>
 									<span class="sidebar-menu-text">Bị khoá</span>
 							</a></li>
-							<li class="sidebar-menu-item"><a class="sidebar-menu-button"
+						<!-- 	<li class="sidebar-menu-item"><a class="sidebar-menu-button"
 								href="admin-chat.html"> <i
 									class="sidebar-menu-icon sidebar-menu-icon--left material-icons">comment</i>
 									<span class="sidebar-menu-text">Chat</span>
@@ -105,7 +105,7 @@
 									class="sidebar-menu-icon sidebar-menu-icon--left material-icons">touch_app</i>
 									<span class="sidebar-menu-text">Trello</span>
 							</a></li>
-							
+							 -->
 							
 							<li class="sidebar-menu-item"><a class="sidebar-menu-button"
 								href="${pageContext.request.contextPath}/SignOut"> <i

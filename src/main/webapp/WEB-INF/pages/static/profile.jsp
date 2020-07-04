@@ -84,7 +84,7 @@
 											<div class="form-img-action text-center mgbt-xs-20">
 
 												<input onchange="readURL(this);" type="file" name="image"
-													style="margin: auto; width: 92px;" />
+													style="margin: auto; width: 78px;" />
 
 											</div>
 											<br />
@@ -324,8 +324,7 @@
 						<hr>
 
 						<h3 class="mgbt-xs-15"
-							style="margin-top: -26px; margin: 16px 0px;">Cài đặt tài
-							khoản</h3>
+							style="margin-top: -26px; margin: 16px 0px;">Thay đổi mật khẩu</h3>
 
 
 						<span id="hideMe" class="${class_name}"

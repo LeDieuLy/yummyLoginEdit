@@ -241,12 +241,13 @@ table {
 /*-----------------------------------------------------------------------------------*/
 body {
 	color: #909090;
-	font: 13px "Droid Sans", Arial, Helvetica, "Trebuchet MS", sans-serif;
+	/*font: 13px "Droid Sans", Arial, Helvetica, "Trebuchet MS", sans-serif;*/
+	font: 13px Arial, sans-serif;
 	line-height: 20px;
 }
 
 .font {
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+	font: 14px , Arial, sans-serif;
 }
 
 .blog-div {
@@ -347,11 +348,14 @@ opacity
 h1, h2, h3, h4, h5, h6, #left-area .recipe-cat-info li.about, #left-area .recipe-cat-info li,
 	#left-area .recipe-info li, #left-area .info-left .recipe-tags span,
 	form label {
-	font-family: "MuseoSlab500", Times, serif;
+	/*font-family: "MuseoSlab500", Times, serif;*/
+	font-family: Arial, sans-serif;
+	
 }
 
 #left-area pre {
-	font-family: "Courier New", Courier, monospace;
+	font-family: Arial, sans-serif;
+	/*font-family: "Courier New", Courier, monospace;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -491,6 +495,7 @@ textarea {
 textarea:focus {
 	color: #5b5b5b;
 	border-color: #dfdfdf;
+	outline: none;
 }
 
 a.readmore, .readmore {
@@ -516,7 +521,8 @@ input[type="date"], input[type="text"], input[type="password"], input[type="numb
 	padding: 8px;
 	margin: 0 0 0;
 	border: 1px solid #d5d5d5;
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+/*	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 14px Arial, sans-serif;
 	color: #888;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -532,7 +538,8 @@ input[type="date"], input[type="text"], input[type="password"], input[type="numb
 	padding: 8px;
 	margin: 0 0 0;
 	border: 1px solid #d5d5d5;
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+/*	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 14px Arial, sans-serif;	
 	color: #888;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -546,7 +553,8 @@ textarea {
 	display: inline-block;
 	padding: 8px;
 	border: 1px solid #d5d5d5;
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+	/*font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 14px Arial, sans-serif;	
 	color: #888;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -1286,7 +1294,8 @@ img {
 }
 
 #slider.slider2 .slider-head {
-	font: 30px 'Pacifico', cursive;
+	/*font: 30px 'Pacifico', cursive;*/
+	font: 30px Arial, sans-serif;
 	float: none;
 	margin-bottom: 0;
 	margin-left: 10px;
@@ -2383,7 +2392,8 @@ img {
 }
 
 #left-area blockquote p {
-	font: 18px/27px "MuseoSlab500", Arial, Helvetica, sans-serif;
+/*	font: 18px/27px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 18px/27px Arial, sans-serif;
 	font-style: italic;
 	margin-bottom: 0;
 	padding: 10px;
@@ -3920,7 +3930,8 @@ img {
 	height: 18px;
 	margin: 0 0 0;
 	border: 1px solid #d5d5d5;
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+/*	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 14px Arial, sans-serif;
 	color: #888;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
@@ -3936,7 +3947,8 @@ img {
 #adduser .select2-container--default .select2-selection--single {
 	background-color: #f3f7f8;
 	border: 1px solid #d5d5d5;
-	font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;
+	/*font: 14px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 14px Arial, sans-serif;
 	color: #888;
 	outline: none;
 	height: 36px;
@@ -4133,7 +4145,8 @@ img {
 	width: 45px;
 	height: 45px;
 	background: url(images/faq-num-bg.png) left top no-repeat;
-	font: 24px/45px "MuseoSlab500", Arial, Helvetica, sans-serif;
+	font: 24px/45px Arial, sans-serif;
+/*	font: 24px/45px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
 	text-align: center;
 	color: #999999;
 	position: absolute;
@@ -4478,7 +4491,8 @@ img {
 	height: 25px;
 	padding: 0 0 0 35px;
 	margin: 0 0 7px;
-	font: 16px/25px "MuseoSlab500", Arial, Helvetica, sans-serif;
+/*	font: 16px/25px "MuseoSlab500", Arial, Helvetica, sans-serif;*/
+	font: 16px/25px Arial, sans-serif;
 	font-style: italic;
 	background: url(images/sidebar-icons.png) left top no-repeat;
 }

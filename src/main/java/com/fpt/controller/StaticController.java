@@ -63,10 +63,10 @@ public class StaticController {
 				user.getCurrentUsers().getRole(), birthday, address, user.getCurrentUsers().getProvider(), bio, photo2,
 				user.getCurrentUsers().getCreated_at(), user.getCurrentUsers().getStatus(),
 				user.getCurrentUsers().getBlock_date()))) {
-			model.addAttribute("message2", "Cập nhập thông tin thành công.");
+			model.addAttribute("message2", "Cập nhật thông tin thành công.");
 			model.addAttribute("class_name", "msg_success");
 		} else {
-			model.addAttribute("message2", "Cập nhập thông tin thất bại.");
+			model.addAttribute("message2", "Cập nhật thông tin thất bại.");
 			model.addAttribute("class_name", "msg_error");
 		}
 
@@ -89,7 +89,7 @@ public class StaticController {
 			model.addAttribute("class_name", "msg_success");
 			return "static/profile";
 		} else {
-			model.addAttribute("message", "Thay đổi mật khẩu không thành công, vui lòng thử lại . ");
+			model.addAttribute("message", "Thay đổi mật khẩu không thành công, vui lòng thử lại. ");
 			model.addAttribute("class_name", "msg_error");
 			return "static/profile";
 		}

@@ -24,9 +24,9 @@
                         <p>Món bánh bèo Đà Nẵng dai mềm cùng với phần sốt tôm thịt đậm đà, mỡ hành beo béo chan lên mặt bánh hẳn sẽ khiến bạn vừa ăn vừa gật gù khen ngon đó.</p>
                     </div>
                     <div class="nivo-slides">
-                        <a href="#"><img src="resources/images/cua_sot_ot.jpg" title="#caption_1" alt="Cua sốt ớt" /></a>
+                        <a href="#"><img src="resources/images/banh_beo.jpg" title="#caption_1" alt="Cua sốt ớt" /></a>
                         <a href="#"><img src="resources/images/steak.jpg" title="#caption_2" alt="Steak chuẩn vị âu" /></a>
-                        <a href="#"><img src="resources/images/banh_beo.jpg" title="#caption_3" alt="Bánh bèo Đà Nẵng" /></a>
+                        <a href="#"><img src="resources/images/cua_sot_ot.jpg" title="#caption_3" alt="Bánh bèo Đà Nẵng" /></a>
                     </div>
 
 			</div>
