@@ -71,7 +71,7 @@
 													src="${pageContext.request.contextPath }/resources/images/null_img.png" />
 								</c:when>
 								<c:otherwise>
-									<img style="width: 200px; height: 174px;margin-bottom: 10px" id="blah" alt="example image"
+									<img style="width: 208px; height: 174px;margin-bottom: 10px" id="blah" alt="example image"
 													src="${pageContext.request.contextPath }/resources/${user.getImage()}" />
 								</c:otherwise>
 							</c:choose>
@@ -84,7 +84,7 @@
 											<div class="form-img-action text-center mgbt-xs-20">
 
 												<input onchange="readURL(this);" type="file" name="image"
-													style="margin: auto; width: 78px;" />
+													style="margin: auto; width: 75px;" />
 
 											</div>
 											<br />
@@ -92,7 +92,7 @@
 												<table class="table table-striped table-hover">
 													<tbody>
 														<tr>
-															<td style="width: 60%;">Trạng thái</td>
+															<td style="width: 55%;">Trạng thái</td>
 
 															<c:choose>
 																<c:when test="${user.status=='1'}">
@@ -126,7 +126,7 @@
 									<h3 class="mgbt-xs-15">Thông tin người dùng</h3>
 
 									<span id="hideMe" class="${class_name}"
-										style="font-size: larger; margin: 168px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${ message2 }</span>
+										style="font-family: Arial, sans-serif; font-size: larger; margin: 168px; font-weight: normal; margin-top: -10px; margin-bottom: 13px;">${ message2 }</span>
 									<br> <br>
 									<div class="form-group">
 										<label class="col-sm-3 control-label font">Họ tên</label>
@@ -264,56 +264,6 @@
 						</form>
 
 
-
-
-						<!-- 
-
-<div class="modal-profile" >
-	<div class="modal-dialog show-profile"
-		style=" display: none; margin-left: -82px;position: fixed;z-index: 999; top: 40%;;bottom: 50% ;left: 55%; transform: translate(-50%, -50%);" role="document">
-		<div class="modal-content">
-			<div class="modal-header" style="background-color: #68aa10;">
-				<h5 class="modal-title">Modal title</h5>
-				
-			</div>
-			<div class="modal-body">
-				<p style="font-size: 20px; font-weight: 700;color: black; text-align: center;" > Xác nhận thay đổi thông tin người dùng? </p>
-			</div>
-			<div class="modal-footer">
-				<button type="submit" class="btn btn-primary save-change">Xác nhận 
-					</button>
-				<button type="button" class="btn btn-secondary save-close">Huỷ </button>
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-<div class="modal-password" >
-	<div class="modal-dialog show-password"
-		style=" display: none; margin-left: -82px;position: fixed;z-index: 999; top: 40%;;bottom: 50% ;left: 55%; transform: translate(-50%, -50%);" role="document">
-		<div class="modal-content">
-			<div class="modal-header" style="background-color: #68aa10;">
-				<h5 class="modal-title">Modal title</h5>
-				
-			</div>
-			<div class="modal-body">
-				<p style="font-size: 20px; font-weight: 700;color: black; text-align: center;" > Xác nhận thay đổi mật khẩu ? </p>
-			</div>
-			<div class="modal-footer">
-				<button type="submit" class="btn btn-primary save-change-pass">Xác nhận 
-					</button>
-				<button type="button" class="btn btn-secondary save-close-pass">Huỷ </button>
-			</div>
-		</div>
-	</div>
-</div> -->
-
-
-					
-
-
 						<jsp:include page="layout/_confirm.jsp"></jsp:include>
 
 
@@ -328,7 +278,7 @@
 
 
 						<span id="hideMe" class="${class_name}"
-							style="font-size: larger; margin: 168px; font-weight: 900; margin-top: -10px; margin-bottom: 13px;">${message}</span>
+						style="font-size: larger; margin: 168px; font-weight: normal; margin-top: -10px; margin-bottom: 13px;">${message}</span>
 
 
 
