@@ -27,7 +27,7 @@ public class UserDao {
 
 	@SuppressWarnings("unchecked")
 //	@Override
-	public List<Users> list(int value) {
+	public List<Users> filterByStatus(int value) {
 		Session session = sessionFactory.openSession();
 		List<Users> list = session.createQuery("From Users where status ='" + value + "'").list();
 		return list;

@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.fpt.dao.PostDao;
 import com.fpt.dao.UserDao;
 import com.fpt.model.Users;
 import com.fpt.service.CurrentUser;
@@ -23,6 +24,8 @@ public class StaticController {
 	@Autowired
 	UserDao userDaoimpl;
 
+	@Autowired
+	PostDao postDao;
 
 	@Autowired
 	ServletContext context;
@@ -39,6 +42,8 @@ public class StaticController {
 	@GetMapping(value = "/")
 	public String index(Model model, HttpSession session) {
 		session.setAttribute("user", user.getCurrentUsers());
+		model.addAttribute("top5", postDao.filterHomePage("created_at"));
+		model.addAttribute("suggestions", postDao.filterHomePage("view_conter"));
 		return "static/index";
 	}
 	

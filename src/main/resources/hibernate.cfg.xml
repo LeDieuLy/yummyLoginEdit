@@ -2,6 +2,8 @@
 <!DOCTYPE hibernate-configuration PUBLIC
 		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
 		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+		
+		
 <hibernate-configuration>
 	<session-factory>
 	
@@ -16,10 +18,11 @@
         <property name="hibernate.hbm2ddl.auto">update</property>
         
 
-
 		
 		<mapping class="com.fpt.model.Users" />
 		<mapping class="com.fpt.model.Posts" />
+		<mapping class="com.fpt.model.Reactions" />
+		
 
 	</session-factory>
 </hibernate-configuration>

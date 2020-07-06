@@ -10,8 +10,8 @@
 
 		<csrf disabled="true" />
 		<intercept-url pattern="/" access="permitAll()" />
-		<intercept-url pattern="/admin/*"
-			access="hasRole('ROLE_10')" />
+		<intercept-url pattern="/admin/*" access="hasRole('ROLE_10')" /> 
+	
 			
 			<intercept-url pattern="/profile"
 			access="hasRole('ROLE_10') or hasRole('ROLE_1')" />

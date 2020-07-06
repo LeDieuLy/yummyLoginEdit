@@ -75,12 +75,10 @@
 													src="${pageContext.request.contextPath }/resources/${user.getImage()}" />
 								</c:otherwise>
 							</c:choose>
+									</div>
 											
 											
 											
-											
-											
-											</div>
 											<div class="form-img-action text-center mgbt-xs-20">
 
 												<input onchange="readURL(this);" type="file" name="image"

@@ -209,7 +209,7 @@
 					
 						
 						
-								<c:choose>
+					<!-- 		<c:choose>
 								<c:when test="${user.getFullname()  == null}">
 
 								 <a href="${pageContext.request.contextPath}/authorized/SignIn"
@@ -227,7 +227,7 @@
 						bài </a>
 						
 								</c:otherwise>
-							</c:choose>
+							</c:choose> -->	
 						
 						
 						
