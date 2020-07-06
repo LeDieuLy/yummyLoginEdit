@@ -34,8 +34,8 @@
 			<form action="${pageContext.request.contextPath}/admin/post-edit${post.id}" enctype="multipart/form-data" method="POST">
 
 
-				<h3 style="font-size: 30px; text-align: center; margin: 30px 0px;" class="single-post-title">Sửa bài
-					viết mới</h3>
+				<h3 style="font-size: 30px; text-align: center; margin: 30px 0px;" 
+				class="single-post-title">Sửa bài viết</h3>
 
 				<input type="hidden" name="user_id" value="${ post.user.id }" />
 

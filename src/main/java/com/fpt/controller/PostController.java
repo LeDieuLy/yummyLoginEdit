@@ -68,8 +68,8 @@ public class PostController {
 	}*/
 
 	@GetMapping(value = "/admin/post-edit{id}")
-	public String edit(ModelMap model) {
-	//	model.addAttribute("post", postDaoimpl.findByID(id));
+	public String edit(ModelMap model, @PathVariable("id") int id) {
+		model.addAttribute("post", postDaoimpl.findByID(id));
 		return "admin/post/edit";
 	}
 	
